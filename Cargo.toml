@@ -23,6 +23,7 @@ esp-backtrace = { version = "0.18.1", features = [
   "panic-handler",
 ] }
 esp-println = { version = "0.16.1", features = ["defmt-espflash", "esp32c3"] }
+heapless = "0.9.2"
 
 
 [profile.dev]
