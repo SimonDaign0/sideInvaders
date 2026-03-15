@@ -167,7 +167,6 @@ impl StateMachine {
                     }
                     Event::BtnPressed(2) => {
                         self.player.move_pos(Direction::Down, 2);
-                        self.player.move_pos(Direction::Down, 2)
                     }
                     Event::BtnPressed(3) => {
                         self.player.move_pos(Direction::Up, 2);

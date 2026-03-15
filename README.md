@@ -11,8 +11,7 @@ Your goal is simple: **survive as long as possible and achieve the highest score
 ## Gameplay
 
 * You start with **3 lives**.
-* You can have **up to 10 projectiles active at once**.
-* Enemies move across the screen and periodically fire at the player.
+* You can have **up to 10 projectiles active at once**.a
 * Destroy enemies to **increase your score**.
 * Lose all your lives and the game ends.
 
