@@ -31,6 +31,7 @@ use super::{
 };
 //
 //
+#[derive(PartialEq, Eq)]
 pub enum Event {
     BtnPressed(u8),
 }
@@ -196,7 +197,9 @@ impl StateMachine {
                 }
             }
             State::GameOver => {
-                self.restart();
+                if event == Event::BtnPressed(4) {
+                    self.restart();
+                }
             }
             State::Idle => {
                 self.state = State::Playing;
